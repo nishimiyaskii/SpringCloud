@@ -10,6 +10,7 @@
         <module name="eureka-provider1" />
         <module name="eureka-provider2" />
         <module name="eureka-server1" />
+        <module name="ribbon-consumer1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="eureka-provider1" target="1.8" />
       <module name="eureka-provider2" target="1.8" />
       <module name="eureka-server1" target="1.8" />
+      <module name="ribbon-consumer1" target="1.8" />
       <module name="SpringCloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>

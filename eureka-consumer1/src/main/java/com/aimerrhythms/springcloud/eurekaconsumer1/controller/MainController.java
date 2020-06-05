@@ -1,5 +1,6 @@
-package com.aimerrhythms.springcloud.eurekaconsumer1;
+package com.aimerrhythms.springcloud.eurekaconsumer1.controller;
 
+import com.aimerrhythms.springcloud.eurekaconsumer1.service.HealthStatusService;
 import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import com.netflix.discovery.shared.Application;
@@ -8,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
@@ -25,6 +27,9 @@ public class MainController {
 
     @Autowired
     LoadBalancerClient lb;
+
+    @Autowired
+    HealthStatusService healthStatusService;
 
     /**
      * 获取所有应用
@@ -86,5 +91,21 @@ public class MainController {
         RestTemplate restTemplate = new RestTemplate();
         return restTemplate.getForObject(url, String.class);
     }
+
+
+    /**
+     * 根据业务逻辑判断是否需要对服务进行手动下线
+     * @param status
+     * @return
+     */
+    @GetMapping("/health")
+    public String health(@RequestParam("status") Boolean status) {
+
+        healthStatusService.setStatus(status);
+
+        return healthStatusService.getStatus();
+
+    }
+
 
 }
