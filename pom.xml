@@ -10,10 +10,15 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>eureka-server1</module>
+		<module>eureka-consumer1</module>
 		<module>eureka-provider1</module>
 		<module>eureka-provider2</module>
-		<module>eureka-consumer1</module>
+		<module>eureka-server1</module>
+		<module>feign-api</module>
+		<module>feign-consumer1</module>
+		<module>feign-provider</module>
+		<module>resttemplate-consumer1</module>
+		<module>ribbon-consumer1</module>
 	</modules>
 
 </project>

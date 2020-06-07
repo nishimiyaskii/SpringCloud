@@ -9,10 +9,16 @@
         <option value="$PROJECT_DIR$/eureka-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer1/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/resttemplate-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-consumer1/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-api/pom.xml" />
+        <option value="$PROJECT_DIR$/feign-provider2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/feign-provider2/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </set>
     </option>

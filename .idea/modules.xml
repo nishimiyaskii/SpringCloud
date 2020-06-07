@@ -7,6 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-provider1/eureka-provider1.iml" filepath="$PROJECT_DIR$/eureka-provider1/eureka-provider1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-provider2/eureka-provider2.iml" filepath="$PROJECT_DIR$/eureka-provider2/eureka-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-api/feign-api.iml" filepath="$PROJECT_DIR$/feign-api/feign-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer1/feign-consumer1.iml" filepath="$PROJECT_DIR$/feign-consumer1/feign-consumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-provider/feign-provider.iml" filepath="$PROJECT_DIR$/feign-provider/feign-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-provider2/feign-provider2.iml" filepath="$PROJECT_DIR$/feign-provider2/feign-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resttemplate-consumer1/resttemplate-consumer1.iml" filepath="$PROJECT_DIR$/resttemplate-consumer1/resttemplate-consumer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-consumer1/ribbon-consumer1.iml" filepath="$PROJECT_DIR$/ribbon-consumer1/ribbon-consumer1.iml" />
     </modules>
   </component>
