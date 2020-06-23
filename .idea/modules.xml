@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-center-client/config-center-client.iml" filepath="$PROJECT_DIR$/config-center-client/config-center-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-center-server/config-center-server.iml" filepath="$PROJECT_DIR$/config-center-server/config-center-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer01/consumer01.iml" filepath="$PROJECT_DIR$/consumer01/consumer01.iml" />
