@@ -1,0 +1,12 @@
+server:
+  port: 92
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@eureka1.com:7001/eureka/
+  instance:
+    hostname: eureka1.com
+spring:
+  application:
+    name: springcloud-provider
+

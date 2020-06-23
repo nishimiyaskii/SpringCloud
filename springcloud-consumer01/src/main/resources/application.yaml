@@ -1,0 +1,35 @@
+server:
+  port: 81
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:admin@eureka1.com:7001/eureka/
+  instance:
+    hostname: eureka1.com
+spring:
+  boot:
+    admin:
+      # 就是把actuator中的endpoints做成UI界面了
+      client:
+        url: http://localhost:80/
+  application:
+    name: springcloud-consumer
+  #zipkin
+  zipkin:
+    base-url: http://localhost:9411/
+  #采样比例1
+  sleuth:
+    sampler:
+      rate: 1
+feign:
+  hystrix:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

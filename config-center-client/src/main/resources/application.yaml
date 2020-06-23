@@ -1,0 +1,27 @@
+server:
+  port: 8888
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://admin:admin@eureka1.com:7001/eureka/
+#  instance:
+#    hostname: eureka1.com
+spring:
+  cloud:
+    config:
+      # \u4EE5URL\u7684\u65B9\u5F0F\u627E\u914D\u7F6E\u4E2D\u5FC3
+      # \u4E5F\u53EF\u4EE5\u901A\u8FC7\u6CE8\u518C\u4E2D\u5FC3\u67E5\u627E
+#      discovery:
+#        enabled: true
+#        service-id: config-center-server
+      uri: http://localhost:9999/
+      # profile
+      profile: dev
+      # github\u4E0A\u7684\u5206\u652F
+      label: master
+  application:
+    name: consumer
+#    admin:
+#      enabled: true
+#      jmx-name:
