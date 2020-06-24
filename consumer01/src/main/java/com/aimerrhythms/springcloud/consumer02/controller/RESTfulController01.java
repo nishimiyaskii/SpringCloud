@@ -1,9 +1,8 @@
 package com.aimerrhythms.springcloud.consumer02.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import to.PersonTo;
 
@@ -74,6 +73,19 @@ public class RESTfulController01 {
         //provider使用@RequestParma注解接收参数
         String url = "http://provider/objParam?name={1}";
         return restTemplate.getForEntity(url, PersonTo.class, "chenxi").getBody();
+    }
+
+    /**
+     * restTemplate处理post请求，传入map类型的参数
+     *
+     * @return
+     */
+    @PostMapping("/postMapParam")
+    public PersonTo postMapParam() {
+        String url = "http://provider/postMapParam";
+        Map<String, String> param = Collections.singletonMap("name", "chenxi");
+        ResponseEntity<PersonTo> respEntity = restTemplate.postForEntity(url, param, PersonTo.class);
+        return respEntity.getBody();
     }
 
 

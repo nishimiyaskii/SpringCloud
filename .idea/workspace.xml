@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61aacfdc-2d67-47d6-85a6-93a81633ce2c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaConsumerController01.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/consumer01/consumer01.iml" afterPath="$PROJECT_DIR$/consumer01/consumer01.iml" />
-      <change beforePath="$PROJECT_DIR$/consumer01/pom.xml" afterPath="$PROJECT_DIR$/consumer01/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/ConsumerController01.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/provider01/pom.xml" afterPath="$PROJECT_DIR$/provider01/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/provider01/provider01.iml" afterPath="$PROJECT_DIR$/provider01/provider01.iml" />
-      <change beforePath="$PROJECT_DIR$/provider02/pom.xml" afterPath="$PROJECT_DIR$/provider02/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/provider02/provider02.iml" afterPath="$PROJECT_DIR$/provider02/provider02.iml" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" afterPath="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" />
+      <change beforePath="$PROJECT_DIR$/provider01/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/provider01/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" afterPath="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka-server1/target/" />
@@ -71,11 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RESTfulController01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java">
+      <file leaf-file-name="RibbonController01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="203">
+              <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,19 +79,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProviderController01.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer01/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/resources/application.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProviderController01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="624">
+              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding>
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,29 +115,13 @@
       <file leaf-file-name="ProviderController02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="986">
+              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
               <folding>
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-                <element signature="e#663#664#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PersonTo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/to/PersonTo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#814#815#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -155,6 +150,8 @@
       <find>web</find>
       <find>statusUpdate</find>
       <find>eureka.client.healthcheck.enabled</find>
+      <find>NFLoadBalancerRuleClassName</find>
+      <find>spring.cloud.loadbalancer.ribbon.enabled</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,10 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud-provider01/src/main/java/com/aimerrhythms/springcloud/springcloudprovider01/controller/FeignAndHystrixProvider01Controller.java" />
-        <option value="$PROJECT_DIR$/zuul/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/springcloud-provider02/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/service/FeignAndHystrixService.java" />
         <option value="$PROJECT_DIR$/springcloud-provider01/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider01/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/admin-server/src/main/java/com/aimerrhythms/springcloud/adminserver/AdminServerApplication.java" />
@@ -200,26 +193,30 @@
         <option value="$PROJECT_DIR$/consumer02/pom.xml" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java" />
         <option value="$PROJECT_DIR$/eureka_server_node02/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/consumer02/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/provider01/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/provider02/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/eureka_server_node01/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/ProviderController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/ConsumerController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaConsumerController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController.java" />
-        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController01.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/provider02/pom.xml" />
         <option value="$PROJECT_DIR$/provider01/pom.xml" />
         <option value="$PROJECT_DIR$/consumer01/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/to/PersonTo.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" />
+        <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/interceptor/MyRestInterceptor.java" />
+        <option value="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/interceptor/MyRestInterceptor.java" />
         <option value="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" />
-        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java" />
+        <option value="$PROJECT_DIR$/provider02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/provider01/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -278,6 +275,9 @@
             <id>Compiler issuesJava</id>
           </State>
           <State>
+            <id>General</id>
+          </State>
+          <State>
             <id>Java</id>
           </State>
           <State>
@@ -295,7 +295,7 @@
         </expanded-state>
         <selected-state>
           <State>
-            <id>UNCHECKED_WARNING</id>
+            <id>Duplicates</id>
           </State>
         </selected-state>
       </profile-state>
@@ -319,6 +319,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -331,14 +332,34 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,9 +379,13 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="AbstractInstanceRegistry&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry&#10;DiscoveryClient&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/DiscoveryClient.java&#10;InstanceResource&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-core/1.9.21/eureka-core-1.9.21-sources.jar!/com/netflix/eureka/resources/InstanceResource.java&#10;SpringApplicationAdminJmxAutoConfiguration&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;springApplicationAdminRegistrar&#9;PSI&#9;JAVA://org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar" />
+    <property name="SearchEverywhereHistoryKey" value="RibbonLoadBalancerClient&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java&#10;NFLoadBalancerRuleClassName&#9;PSI&#9;JAVA://com.netflix.client.config.CommonClientConfigKey#NFLoadBalancerRuleClassName&#10;Ribbonpro&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonProperties&#10;AbstractInstanceRegistry&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry&#10;DiscoveryClient&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/DiscoveryClient.java&#10;InstanceResource&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-core/1.9.21/eureka-core-1.9.21-sources.jar!/com/netflix/eureka/resources/InstanceResource.java&#10;SpringApplicationAdminJmxAutoConfiguration&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;springApplicationAdminRegistrar&#9;PSI&#9;JAVA://org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.aimerrhythms.springcloud.consumer02.interceptor" />
+      <recent name="com.aimerrhythms.springcloud.provider02.interceptor" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Idea_WorkSpace\SpringCloud" />
     </key>
@@ -438,6 +463,24 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="AdminServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.adminserver.AdminServerApplication" />
+      <module name="admin-server" />
+      <envs />
+    </configuration>
+    <configuration name="ConfigCenterClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.configcenterclient.ConfigCenterClientApplication" />
+      <module name="config-center-client" />
+      <envs />
+    </configuration>
+    <configuration name="ConfigCenterServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.configcenterserver.ConfigCenterServerApplication" />
+      <module name="config-center-server" />
+      <envs />
+    </configuration>
     <configuration name="Consumer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -462,6 +505,30 @@
       <option name="VM_PARAMETERS" value="-Xmx100m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="consumer02" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.eurekaconsumer1.EurekaConsumer1Application" />
+      <module name="eureka-consumer1" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaProvider1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.eurekaprovider1.EurekaProvider1Application" />
+      <module name="eureka-provider1" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaProvider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.eurekaprovider2.EurekaProvider2Application" />
+      <module name="eureka-provider2" />
+      <envs />
+    </configuration>
+    <configuration name="EurekaServer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.eurekaserver1.EurekaServer1Application" />
+      <module name="eureka-server1" />
       <envs />
     </configuration>
     <configuration name="EurekaServerNode01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -490,6 +557,24 @@
       <module name="eureka_server_node02" />
       <envs />
     </configuration>
+    <configuration name="FeignApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.feignapi.FeignApiApplication" />
+      <module name="feign-api" />
+      <envs />
+    </configuration>
+    <configuration name="FeignConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.feignconsumer1.FeignConsumer1Application" />
+      <module name="feign-consumer1" />
+      <envs />
+    </configuration>
+    <configuration name="FeignProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.feignprovider.FeignProviderApplication" />
+      <module name="feign-provider" />
+      <envs />
+    </configuration>
     <configuration name="Provider01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -514,6 +599,48 @@
       <option name="VM_PARAMETERS" value="-Xmx100m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <module name="provider02" />
+      <envs />
+    </configuration>
+    <configuration name="ResttemplateConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.resttemplate.ResttemplateConsumer1Application" />
+      <module name="resttemplate-consumer1" />
+      <envs />
+    </configuration>
+    <configuration name="RibbonConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.ribbonconsumer1.RibbonConsumer1Application" />
+      <module name="ribbon-consumer1" />
+      <envs />
+    </configuration>
+    <configuration name="SpringcloudConsumer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.springcloudconsumer01.SpringcloudConsumer01Application" />
+      <module name="springcloud-consumer01" />
+      <envs />
+    </configuration>
+    <configuration name="SpringcloudConsumer02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.springcloudconsumer02.SpringcloudConsumer02Application" />
+      <module name="springcloud-consumer02" />
+      <envs />
+    </configuration>
+    <configuration name="SpringcloudProvider01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.springcloudprovider01.SpringcloudProvider01Application" />
+      <module name="springcloud-provider01" />
+      <envs />
+    </configuration>
+    <configuration name="SpringcloudProvider02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.springcloudprovider02.SpringcloudProvider02Application" />
+      <module name="springcloud-provider02" />
+      <envs />
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aimerrhythms.springcloud.zuul.ZuulApplication" />
+      <module name="zuul" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -549,7 +676,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="9">
+    <list size="26">
       <item index="0" class="java.lang.String" itemvalue="Compound.Provider" />
       <item index="1" class="java.lang.String" itemvalue="Compound.ES" />
       <item index="2" class="java.lang.String" itemvalue="Compound.Consumer" />
@@ -559,6 +686,23 @@
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.Consumer02Application" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.Provider01Application" />
       <item index="8" class="java.lang.String" itemvalue="Spring Boot.Provider02Application" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.SpringcloudConsumer02Application" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.FeignProviderApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.SpringcloudProvider01Application" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.EurekaServer1Application" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.SpringcloudProvider02Application" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.ResttemplateConsumer1Application" />
+      <item index="15" class="java.lang.String" itemvalue="Spring Boot.ZuulApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider2Application" />
+      <item index="17" class="java.lang.String" itemvalue="Spring Boot.FeignApiApplication" />
+      <item index="18" class="java.lang.String" itemvalue="Spring Boot.ConfigCenterClientApplication" />
+      <item index="19" class="java.lang.String" itemvalue="Spring Boot.AdminServerApplication" />
+      <item index="20" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumer1Application" />
+      <item index="21" class="java.lang.String" itemvalue="Spring Boot.SpringcloudConsumer01Application" />
+      <item index="22" class="java.lang.String" itemvalue="Spring Boot.RibbonConsumer1Application" />
+      <item index="23" class="java.lang.String" itemvalue="Spring Boot.FeignConsumer1Application" />
+      <item index="24" class="java.lang.String" itemvalue="Spring Boot.ConfigCenterServerApplication" />
+      <item index="25" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider1Application" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -589,6 +733,7 @@
       <workItem from="1592573278222" duration="8910000" />
       <workItem from="1592831941307" duration="8879000" />
       <workItem from="1592922280679" duration="4860000" />
+      <workItem from="1593002251728" duration="5562000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka">
       <created>1591277697789</created>
@@ -622,7 +767,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84132000" />
+    <option name="totallyTimeSpent" value="89694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,10 +803,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45300114" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251073" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -669,7 +815,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -730,224 +875,6 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaInstanceConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="462" column="0" lean-forward="false" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/Provider01Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE-sources.jar!/org/springframework/core/Ordered.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/shared/LookupService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/EurekaClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="39" column="31" lean-forward="true" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-          <folding>
-            <element signature="e#1677#1678#0" expanded="false" />
-            <element signature="e#1704#1705#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/eureka/eureka-core/1.9.21/eureka-core-1.9.21-sources.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.2.3.RELEASE/spring-cloud-netflix-eureka-client-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="195" column="26" lean-forward="true" selection-start-line="195" selection-start-column="26" selection-end-line="195" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-actuator/2.3.1.RELEASE/spring-boot-actuator-2.3.1.RELEASE.jar!/org/springframework/boot/actuate/health/HealthIndicator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-actuator/2.3.1.RELEASE/spring-boot-actuator-2.3.1.RELEASE-sources.jar!/org/springframework/boot/actuate/health/HealthIndicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="44" column="4" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-actuator/2.3.1.RELEASE/spring-boot-actuator-2.3.1.RELEASE-sources.jar!/org/springframework/boot/actuate/health/Health.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="148" column="26" lean-forward="false" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
-          <folding>
-            <element signature="e#3944#3945#0" expanded="false" />
-            <element signature="e#3982#3983#0" expanded="false" />
-            <element signature="e#4145#4146#0" expanded="false" />
-            <element signature="e#4178#4179#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#421#422#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#495#496#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#678#679#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server_node02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="125" lean-forward="false" selection-start-line="2" selection-start-column="125" selection-end-line="2" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.0.RELEASE/spring-boot-actuator-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/health/HealthEndpointProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/java/com/aimerrhythms/springcloud/eurekaserver1/EurekaServer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-server1/src/main/java/com/aimerrhythms/springcloud/eurekaserver1/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka_server_node01/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.6.RELEASE/spring-web-5.2.6.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1711">
-          <caret line="136" column="11" lean-forward="false" selection-start-line="136" selection-start-column="11" selection-end-line="136" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="317" column="10" lean-forward="false" selection-start-line="317" selection-start-column="8" selection-end-line="317" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/Provider02Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -960,9 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
-          <folding>
-            <element signature="e#42719#42720#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,28 +913,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
           <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="33" column="22" lean-forward="true" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="188" column="35" lean-forward="true" selection-start-line="188" selection-start-column="35" selection-end-line="188" selection-end-column="35" />
-          <folding>
-            <element signature="e#2685#2686#0" expanded="false" />
-            <element signature="e#2722#2723#0" expanded="false" />
-            <element signature="e#6680#6681#0" expanded="false" />
-            <element signature="e#6739#6740#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,125 +924,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="95" column="7" lean-forward="true" selection-start-line="95" selection-start-column="7" selection-end-line="96" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/controller/FeignAndHystrixConsumer01Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="e#701#702#0" expanded="false" />
-            <element signature="e#793#794#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="188" column="17" lean-forward="false" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
-          <folding>
-            <marker date="1592573600365" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1592573600365" expanded="false" signature="154:2909" ph="..." />
-            <marker date="1592573600365" expanded="true" signature="3655:5401" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="5468:5539" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="5614:5973" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="6044:6220" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="6308:6543" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="6630:6844" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="6909:6920" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="6950:6956" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="7025:7153" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="7204:7215" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="7240:7246" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="7311:7842" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="7910:8032" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="8087:8098" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="8129:8135" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="8267:8626" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="8763:9117" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="9222:9557" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="9691:10022" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="10161:10492" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="10599:10916" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="11019:11171" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="11279:11426" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="11502:11630" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="11766:12047" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="12188:12469" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="12578:12845" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="13004:13364" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="13528:13883" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="14015:14338" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="14499:14831" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="14997:15329" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="15463:15781" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="15892:16084" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="16200:16387" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="16471:16639" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="16799:17160" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="17325:17681" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="17814:18138" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="18226:18351" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="18444:18564" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="18625:18726" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="18834:19149" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="19262:19572" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="19653:19944" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="20132:20461" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="20654:20983" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="21144:21459" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="21668:22025" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="22239:22596" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="22778:23121" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="23247:23602" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="23749:24132" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="24348:24519" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="24740:24911" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="25100:25187" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="25391:26477" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="26589:27167" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="27251:27333" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="27415:27494" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="27595:27688" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="27785:27871" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="27936:27947" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="27976:27982" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="28037:28118" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="28131:29091" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="29177:29354" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="29214:29225" ph="{}" />
-            <marker date="1592573600365" expanded="false" signature="29294:29309" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="29338:29348" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="29457:30434" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="29619:29923" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="30018:30428" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="30529:34955" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="30653:30668" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="30698:30708" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="30810:31172" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="31258:34448" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="31663:31756" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="33065:33183" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="33718:33828" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="34558:34949" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="35030:36984" ph="{...}" />
-            <marker date="1592573600365" expanded="false" signature="35163:35178" ph=" { " />
-            <marker date="1592573600365" expanded="false" signature="35211:35221" ph=" }" />
-            <marker date="1592573600365" expanded="true" signature="35303:35973" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="35485:35583" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="36069:36631" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="36732:36978" ph="{...}" />
-            <marker date="1592573600365" expanded="true" signature="36823:36966" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,14 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="672" column="50" lean-forward="false" selection-start-line="672" selection-start-column="50" selection-end-line="672" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -1174,18 +952,6 @@
         <state relative-caret-position="348">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#509#510#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1237,32 +1003,282 @@
         <state relative-caret-position="348">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/client/RestOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar!/org/springframework/lang/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding>
+            <marker date="1592573608415" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1592573608415" expanded="false" signature="148:461" ph="..." />
+            <marker date="1592573608415" expanded="true" signature="463:639" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE-sources.jar!/org/springframework/lang/Nullable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="447" column="55" lean-forward="true" selection-start-line="447" selection-start-column="55" selection-end-line="447" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider01/provider01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/interceptor/MyRestInterceptor02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/interceptor/MyRestInterceptor01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar!/com/netflix/ribbon/Ribbon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1246">
+          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="986">
+          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
           <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java">
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="151">
+          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/ServiceInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/controller/FeignAndHystrixConsumer01Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/RibbonConsumer1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/utils/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonEagerLoadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+          <folding>
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1334#1335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1304">
+          <caret line="119" column="55" lean-forward="true" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/IClientConfigKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2868">
+          <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8734#8743#0" expanded="true" />
+            <element signature="e#8880#8888#0" expanded="true" />
+            <element signature="e#9028#9036#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-loadbalancer/2.2.3.RELEASE/spring-cloud-loadbalancer-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3892">
+          <caret line="185" column="16" lean-forward="true" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1369">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider02/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider01/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1271,17 +1287,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="24" column="33" lean-forward="true" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="624">
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

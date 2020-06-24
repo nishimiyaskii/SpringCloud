@@ -1,8 +1,6 @@
 package com.aimerrhythms.springcloud.provider01.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import to.PersonTo;
 
 import java.util.Collections;
@@ -34,6 +32,19 @@ public class ProviderController01 {
     @GetMapping("/objParam")
     public PersonTo objParam(@RequestParam String name) {
         return new PersonTo(23, name, 1, "BJ");
+    }
+
+    @PostMapping("/postMapParam")
+    public PersonTo postMapParam(@RequestBody Map<String, String> param) {
+        String name = param.get("name");
+        PersonTo to = new PersonTo();
+        to.setName(name + "1");
+        return to;
+    }
+
+    @GetMapping("ribbonTest")
+    public String ribbonTest() {
+        return "01";
     }
 
 }
