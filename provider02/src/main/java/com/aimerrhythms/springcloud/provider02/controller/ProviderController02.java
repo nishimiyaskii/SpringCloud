@@ -47,4 +47,35 @@ public class ProviderController02 {
         return "02";
     }
 
+    @GetMapping("/feignTest")
+    public String feignTest() {
+        return "feign02";
+    }
+
+    @GetMapping("/getById")
+    public String getById(@RequestParam("id") Integer id) {
+        return id + " ----- provider02";
+    }
+
+    @PostMapping("save")
+    public PersonTo save(@RequestBody PersonTo to) {
+        to.setName("provider02");
+        return to;
+    }
+
+    @GetMapping("/retry")
+    public String retry() {
+        return "provider02";
+    }
+
+    @GetMapping("/hystrixTest")
+    public String hystrixTest() {
+        return "provider02";
+    }
+
+    @GetMapping("/hfTest")
+    public String hfTest() {
+        return "provider02";
+    }
+
 }

@@ -9,20 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/config-center-server/config-center-server.iml" filepath="$PROJECT_DIR$/config-center-server/config-center-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer01/consumer01.iml" filepath="$PROJECT_DIR$/consumer01/consumer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer02/consumer02.iml" filepath="$PROJECT_DIR$/consumer02/consumer02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-consumer1/eureka-consumer1.iml" filepath="$PROJECT_DIR$/eureka-consumer1/eureka-consumer1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-provider1/eureka-provider1.iml" filepath="$PROJECT_DIR$/eureka-provider1/eureka-provider1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-provider2/eureka-provider2.iml" filepath="$PROJECT_DIR$/eureka-provider2/eureka-provider2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server1/eureka-server1.iml" filepath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server_node01/eureka_server_node01.iml" filepath="$PROJECT_DIR$/eureka_server_node01/eureka_server_node01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server_node02/eureka_server_node02.iml" filepath="$PROJECT_DIR$/eureka_server_node02/eureka_server_node02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign-api/feign-api.iml" filepath="$PROJECT_DIR$/feign-api/feign-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign-consumer1/feign-consumer1.iml" filepath="$PROJECT_DIR$/feign-consumer1/feign-consumer1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign-provider/feign-provider.iml" filepath="$PROJECT_DIR$/feign-provider/feign-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feign-provider2/feign-provider2.iml" filepath="$PROJECT_DIR$/feign-provider2/feign-provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider01/provider01.iml" filepath="$PROJECT_DIR$/provider01/provider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider02/provider02.iml" filepath="$PROJECT_DIR$/provider02/provider02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/resttemplate-consumer1/resttemplate-consumer1.iml" filepath="$PROJECT_DIR$/resttemplate-consumer1/resttemplate-consumer1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ribbon-consumer1/ribbon-consumer1.iml" filepath="$PROJECT_DIR$/ribbon-consumer1/ribbon-consumer1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer01/springcloud-consumer01.iml" filepath="$PROJECT_DIR$/springcloud-consumer01/springcloud-consumer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" filepath="$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" filepath="$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" />

@@ -42,9 +42,47 @@ public class ProviderController01 {
         return to;
     }
 
-    @GetMapping("ribbonTest")
+    @GetMapping("/ribbonTest")
     public String ribbonTest() {
         return "01";
+    }
+
+    @GetMapping("/feignTest")
+    public String feignTest() {
+        return "feign01";
+    }
+
+    @GetMapping("/getById")
+    public String getById(@RequestParam("id") Integer id) {
+        return id + " ----- provider01";
+    }
+
+    @PostMapping("save")
+    public PersonTo save(@RequestBody PersonTo to) {
+        to.setName("provider01");
+        return to;
+    }
+
+    @GetMapping("/retry")
+    public String retry() {
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "provider01";
+    }
+
+    @GetMapping("/hystrixTest")
+    public String hystrixTest() {
+//        int i = 1 / 0;
+        return "provider01";
+    }
+
+    @GetMapping("/hfTest")
+    public String hfTest() {
+        int i = 1 / 0;
+        return "provider01";
     }
 
 }

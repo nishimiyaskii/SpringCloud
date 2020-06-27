@@ -2,14 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61aacfdc-2d67-47d6-85a6-93a81633ce2c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/aimerrhythm.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/aimerrhythm.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_3_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_0_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_2_RELEASE.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/consumer01/consumer01.iml" afterPath="$PROJECT_DIR$/consumer01/consumer01.iml" />
+      <change beforePath="$PROJECT_DIR$/consumer01/pom.xml" afterPath="$PROJECT_DIR$/consumer01/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer01Application.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer01Application.java" />
       <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaConsumerController01.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaController01.java" />
       <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java" afterPath="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java" />
       <change beforePath="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/consumer01/src/test/java/com/aimerrhythms/springcloud/consumer02/Consumer01ApplicationTests.java" afterPath="$PROJECT_DIR$/consumer01/src/test/java/com/aimerrhythms/springcloud/consumer02/Consumer01ApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/consumer02/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer02Application.java" afterPath="$PROJECT_DIR$/consumer02/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer02Application.java" />
+      <change beforePath="$PROJECT_DIR$/consumer02/src/test/java/com/aimerrhythms/springcloud/consumer02/Consumer02ApplicationTests.java" afterPath="$PROJECT_DIR$/consumer02/src/test/java/com/aimerrhythms/springcloud/consumer02/Consumer02ApplicationTests.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/eureka-consumer1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/EurekaConsumer1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/controller/MainController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/service/HealthStatusService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer1/src/test/java/com/aimerrhythms/springcloud/eurekaconsumer1/EurekaConsumer1ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/eureka-provider1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/aimerrhythms/springcloud/eurekaprovider1/EurekaProvider1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/aimerrhythms/springcloud/eurekaprovider1/MainController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/main/java/com/aimerrhythms/springcloud/eurekaprovider1/pojo/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider1/src/test/java/com/aimerrhythms/springcloud/eurekaprovider1/EurekaProvider1ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/eureka-provider2.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/src/main/java/com/aimerrhythms/springcloud/eurekaprovider2/EurekaProvider2Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/src/main/java/com/aimerrhythms/springcloud/eurekaprovider2/MainController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider2/src/test/java/com/aimerrhythms/springcloud/eurekaprovider2/EurekaProvider2ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/eureka-server1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/main/java/com/aimerrhythms/springcloud/eurekaserver1/EurekaServer1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/main/java/com/aimerrhythms/springcloud/eurekaserver1/config/WebSecurityConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/eureka-server1/src/test/java/com/aimerrhythms/springcloud/eurekaserver1/EurekaServer1ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/feign-api.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/src/main/java/com/aimerrhythms/springcloud/feignapi/FeignApiApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/src/main/java/com/aimerrhythms/springcloud/feignapi/pojo/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/src/main/java/com/aimerrhythms/springcloud/feignapi/service/FeignAPI.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/src/main/resources/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-api/src/test/java/com/aimerrhythms/springcloud/feignapi/FeignApiApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/feign-consumer1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/FeignConsumer1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/controller/FeignConsumerController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/FeignService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/UserService1.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/UserService2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer1/src/test/java/com/aimerrhythms/springcloud/feignconsumer1/FeignConsumer1ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/feign-provider.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/src/main/java/com/aimerrhythms/springcloud/feignprovider/FeignProviderApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/src/main/java/com/aimerrhythms/springcloud/feignprovider/controller/FeignProviderController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/src/test/java/com/aimerrhythms/springcloud/feignprovider/FeignProviderApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/feign-provider2.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/src/main/java/com/aimerrhythms/springcloud/feignprovider2/FeignProvider2Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/src/main/java/com/aimerrhythms/springcloud/feignprovider2/controller/FeignProviderController2.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider2/src/test/java/com/aimerrhythms/springcloud/feignprovider2/FeignProvider2ApplicationTests.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" afterPath="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" />
-      <change beforePath="$PROJECT_DIR$/provider01/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/provider01/src/main/resources/application.properties" />
       <change beforePath="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" afterPath="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/resttemplate-consumer1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/main/java/com/aimerrhythms/springcloud/resttemplate/ResttemplateConsumer1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/main/java/com/aimerrhythms/springcloud/resttemplate/controller/MainController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/main/java/com/aimerrhythms/springcloud/resttemplate/pojo/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/main/java/com/aimerrhythms/springcloud/resttemplate/utils/RestTemplateUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resttemplate-consumer1/src/test/java/com/aimerrhythms/springcloud/resttemplate/ResttemplateConsumer1ApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/ribbon-consumer1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/RibbonConsumer1Application.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/controller/MainController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/utils/MyConfiguration.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/src/main/resources/application.yaml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ribbon-consumer1/src/test/java/com/aimerrhythms/springcloud/ribbonconsumer1/RibbonConsumer1ApplicationTests.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/eureka-server1/target/" />
@@ -67,13 +156,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RibbonController01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java">
+      <file leaf-file-name="HystrixController01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/HystrixController01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+            <state relative-caret-position="1131">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,18 +173,28 @@
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer01/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+            <state relative-caret-position="680">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yaml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/resources/application.yaml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/consumer01/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="338">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Consumer01Application.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer01Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,11 +203,13 @@
       <file leaf-file-name="ProviderController01.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
               <folding>
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1269#1270#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,13 +218,19 @@
       <file leaf-file-name="ProviderController02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="537">
+              <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
-                <element signature="e#814#815#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#1178#1179#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
+                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#1300#1301#0" expanded="true" />
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1629#1630#0" expanded="true" />
+                <element signature="e#1664#1665#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1766#1767#0" expanded="true" />
+                <element signature="e#1823#1824#0" expanded="true" />
+                <element signature="e#1858#1859#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +261,12 @@
       <find>eureka.client.healthcheck.enabled</find>
       <find>NFLoadBalancerRuleClassName</find>
       <find>spring.cloud.loadbalancer.ribbon.enabled</find>
+      <find>feign.hystrix.enabled</find>
+      <find>maxConcurrentRequests</find>
+      <find>executionIsolationSemaphoreMaxConcurrentRequests</find>
+      <find>executionisolationstrategy</find>
+      <find>executionIsolationStrategy</find>
+      <find>default_executionIsolationStrategy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,16 +281,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springcloud-provider01/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-provider01/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/admin-server/src/main/java/com/aimerrhythms/springcloud/adminserver/AdminServerApplication.java" />
-        <option value="$PROJECT_DIR$/admin-server/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-consumer01/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-consumer02/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-server1/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-consumer02/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/admin-server/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/eureka-server1/src/main/java/com/aimerrhythms/springcloud/eurekaserver1/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/springcloud-consumer01/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/config-center-server/src/main/java/com/aimerrhythms/springcloud/configcenterserver/ConfigCenterServerApplication.java" />
         <option value="$PROJECT_DIR$/config-center-client/src/main/java/com/aimerrhythms/springcloud/configcenterclient/controller/ConfigCenterController.java" />
@@ -197,26 +302,36 @@
         <option value="$PROJECT_DIR$/eureka_server_node01/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/ProviderController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/ConsumerController01.java" />
-        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaConsumerController01.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController.java" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController01.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/provider02/pom.xml" />
         <option value="$PROJECT_DIR$/provider01/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer01/pom.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/to/PersonTo.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java" />
         <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/interceptor/MyRestInterceptor.java" />
         <option value="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/interceptor/MyRestInterceptor.java" />
-        <option value="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" />
-        <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java" />
         <option value="$PROJECT_DIR$/provider02/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/provider01/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaController01.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/FeignConfig.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/ProviderFeignService.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/FeignController01.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/hystrix/HystrixTest.java" />
+        <option value="$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/HystrixController01.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/exection/HystrixAndFeignFallBack.java" />
+        <option value="$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HystrixAndFeignService.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/exception/HystrixAndFeignError.java" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/exception/HystrixAndFeignFallBackFactory.java" />
         <option value="$PROJECT_DIR$/consumer01/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/consumer01/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer01Application.java" />
       </list>
     </option>
   </component>
@@ -255,7 +370,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -319,9 +434,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,34 +444,207 @@
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
-              <item name="ribbon-consumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer02" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer02" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer02" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="aimerrhythms" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="provider01" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -379,7 +664,7 @@
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="show.run.dashboard.notification" value="false" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="RibbonLoadBalancerClient&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java&#10;NFLoadBalancerRuleClassName&#9;PSI&#9;JAVA://com.netflix.client.config.CommonClientConfigKey#NFLoadBalancerRuleClassName&#10;Ribbonpro&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonProperties&#10;AbstractInstanceRegistry&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry&#10;DiscoveryClient&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/DiscoveryClient.java&#10;InstanceResource&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-core/1.9.21/eureka-core-1.9.21-sources.jar!/com/netflix/eureka/resources/InstanceResource.java&#10;SpringApplicationAdminJmxAutoConfiguration&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;springApplicationAdminRegistrar&#9;PSI&#9;JAVA://org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar" />
+    <property name="SearchEverywhereHistoryKey" value="executionisolationstrategy&#9;PSI&#9;JAVA://com.netflix.hystrix.HystrixCommandProperties#default_executionIsolationStrategy&#10;maxConcurrentRequests&#9;PSI&#9;JAVA://com.netflix.hystrix.HystrixCommandProperties#executionIsolationSemaphoreMaxConcurrentRequests&#10;MaxAutoRetries&#9;PSI&#9;JAVA://com.netflix.loadbalancer.LoadBalancerContext#maxAutoRetries&#10;RibbonLoadBalancerClient&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java&#10;NFLoadBalancerRuleClassName&#9;PSI&#9;JAVA://com.netflix.client.config.CommonClientConfigKey#NFLoadBalancerRuleClassName&#10;Ribbonpro&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonProperties&#10;AbstractInstanceRegistry&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry&#10;DiscoveryClient&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-client/1.9.21/eureka-client-1.9.21-sources.jar!/com/netflix/discovery/DiscoveryClient.java&#10;InstanceResource&#9;FILE&#9;jar://E:/maven_local_repository/com/netflix/eureka/eureka-core/1.9.21/eureka-core-1.9.21-sources.jar!/com/netflix/eureka/resources/InstanceResource.java&#10;SpringApplicationAdminJmxAutoConfiguration&#9;FILE&#9;jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.java&#10;springApplicationAdminRegistrar&#9;PSI&#9;JAVA://org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -410,6 +695,25 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="HystrixTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.aimerrhythms.springcloud.consumer02.hystrix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.aimerrhythms.springcloud.consumer02.hystrix.HystrixTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="consumer01" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -426,7 +730,6 @@
     </configuration>
     <configuration name="Consumer" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <toRun type="SpringBootApplicationConfigurationType" name="Consumer01Application" />
-      <toRun type="SpringBootApplicationConfigurationType" name="Consumer02Application" />
     </configuration>
     <configuration name="ES" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <toRun type="SpringBootApplicationConfigurationType" name="EurekaServerNode01Application" />
@@ -676,7 +979,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="26">
+    <list size="27">
       <item index="0" class="java.lang.String" itemvalue="Compound.Provider" />
       <item index="1" class="java.lang.String" itemvalue="Compound.ES" />
       <item index="2" class="java.lang.String" itemvalue="Compound.Consumer" />
@@ -703,7 +1006,13 @@
       <item index="23" class="java.lang.String" itemvalue="Spring Boot.FeignConsumer1Application" />
       <item index="24" class="java.lang.String" itemvalue="Spring Boot.ConfigCenterServerApplication" />
       <item index="25" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider1Application" />
+      <item index="26" class="java.lang.String" itemvalue="Application.HystrixTest" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.HystrixTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -734,6 +1043,9 @@
       <workItem from="1592831941307" duration="8879000" />
       <workItem from="1592922280679" duration="4860000" />
       <workItem from="1593002251728" duration="5562000" />
+      <workItem from="1593094562676" duration="4080000" />
+      <workItem from="1593170977946" duration="1807000" />
+      <workItem from="1593183794360" duration="5749000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka">
       <created>1591277697789</created>
@@ -767,7 +1079,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89694000" />
+    <option name="totallyTimeSpent" value="101330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -779,8 +1091,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6693092" sideWeight="0.50214595" order="0" side_tool="true" content_ui="tabs" />
@@ -799,11 +1110,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44960362" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45300114" sideWeight="0.49785408" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.291309" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30418456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -875,287 +1186,186 @@
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/Provider02Application.java">
+    <entry file="file://$PROJECT_DIR$/eureka-provider1/src/main/java/com/aimerrhythms/springcloud/eurekaprovider1/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/resttemplate-consumer1/src/main/java/com/aimerrhythms/springcloud/resttemplate/controller/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaController01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/SpringClientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding>
-            <element signature="e#2220#2221#0" expanded="false" />
-            <element signature="e#2272#2273#0" expanded="false" />
-            <element signature="e#4116#4117#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-context/2.2.3.RELEASE/spring-cloud-context-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/context/named/NamedContextFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-73">
-          <caret line="109" column="18" lean-forward="false" selection-start-line="109" selection-start-column="18" selection-end-line="109" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="188" column="17" lean-forward="false" selection-start-line="188" selection-start-column="17" selection-end-line="188" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/util/UriTemplateHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/EurekaConsumerController01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="1247">
           <caret line="87" column="36" lean-forward="false" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/http/HttpEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="57" column="25" lean-forward="false" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
-          <folding>
-            <element signature="e#3431#3432#0" expanded="false" />
-            <element signature="e#3454#3455#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider02/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/to/PersonTo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/client/RestOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="88" column="26" lean-forward="false" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE.jar!/org/springframework/lang/Nullable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <marker date="1592573608415" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1592573608415" expanded="false" signature="148:461" ph="..." />
-            <marker date="1592573608415" expanded="true" signature="463:639" ph="@{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-core/5.2.7.RELEASE/spring-core-5.2.7.RELEASE-sources.jar!/org/springframework/lang/Nullable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="51" column="27" lean-forward="true" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="447" column="55" lean-forward="true" selection-start-line="447" selection-start-column="55" selection-end-line="447" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/provider01.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/interceptor/MyRestInterceptor02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/interceptor/MyRestInterceptor01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon/2.3.0/ribbon-2.3.0-sources.jar!/com/netflix/ribbon/Ribbon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1246">
-          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="24" selection-end-line="72" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/ServiceInstanceChooser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RESTfulController01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="488">
           <caret line="86" column="64" lean-forward="true" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/to/PersonTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/FeignConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/DefaultClientConfigImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="122" column="41" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/LoadBalancerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="50" selection-end-line="46" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/UserService1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/FeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-911">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/service/UserService2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feign-consumer1/src/main/java/com/aimerrhythms/springcloud/feignconsumer1/controller/FeignConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-534">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/FeignController01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="false" />
+            <element signature="e#661#662#0" expanded="false" />
+            <element signature="e#716#717#0" expanded="false" />
+            <element signature="e#775#776#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#1056#1057#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java">
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/hystrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
-          <folding>
-            <element signature="e#814#815#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="48" column="38" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="38" />
+        <state relative-caret-position="174">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/ServiceInstance.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/util/concurrent/Future.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        <state relative-caret-position="142">
+          <caret line="150" column="6" lean-forward="false" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer1/src/main/java/com/aimerrhythms/springcloud/eurekaconsumer1/controller/MainController.java">
+    <entry file="jar://E:/maven_local_repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        <state relative-caret-position="113">
+          <caret line="379" column="45" lean-forward="true" selection-start-line="379" selection-start-column="45" selection-end-line="379" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/controller/FeignAndHystrixConsumer01Controller.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/HystrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="696">
+          <caret line="30" column="54" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/controller/MainController.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/SpringcloudConsumer01Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+        <state relative-caret-position="116">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="-360">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/RibbonConsumer1Application.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01/src/main/java/com/aimerrhythms/springcloud/springcloudprovider01/controller/FeignAndHystrixProvider01Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-provider01/src/main/java/com/aimerrhythms/springcloud/springcloudprovider01/SpringcloudProvider01Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -1163,151 +1373,260 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/java/com/aimerrhythms/springcloud/ribbonconsumer1/utils/MyConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/interceptor/MyRestInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonEagerLoadProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
-          <folding>
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-loadbalancer/2.3.0/ribbon-loadbalancer-2.3.0-sources.jar!/com/netflix/loadbalancer/RandomRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/config/BeansConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1304">
-          <caret line="119" column="55" lean-forward="true" selection-start-line="119" selection-start-column="55" selection-end-line="119" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/IClientConfigKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/com/netflix/ribbon/ribbon-core/2.3.0/ribbon-core-2.3.0-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2868">
-          <caret line="154" column="35" lean-forward="false" selection-start-line="154" selection-start-column="35" selection-end-line="154" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8734#8743#0" expanded="true" />
-            <element signature="e#8880#8888#0" expanded="true" />
-            <element signature="e#9028#9036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-loadbalancer/2.2.3.RELEASE/spring-cloud-loadbalancer-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-ribbon/2.2.3.RELEASE/spring-cloud-netflix-ribbon-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonLoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3892">
-          <caret line="185" column="16" lean-forward="true" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1369">
-          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider01/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springcloud-provider02/src/main/java/com/aimerrhythms/springcloud/springcloudprovider02/controller/FeignAndHystrixProvider02Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/RibbonController01.java">
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/exception/FeignAndHystrixFallBackFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="41" lean-forward="false" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        <state relative-caret-position="290">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/exception/FeignAndHystrixFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/service/FeignAndHystrixService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HealthStatusService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer01/src/main/java/com/aimerrhythms/springcloud/springcloudconsumer01/controller/FeignAndHystrixConsumer01Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="false" />
+            <element signature="e#793#794#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <marker date="1591527930467" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1591527930467" expanded="false" signature="171:403" ph="..." />
+            <marker date="1591527930467" expanded="true" signature="405:493" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18-sources.jar!/com/netflix/hystrix/contrib/javanica/annotation/HystrixCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-commons/2.2.3.RELEASE/spring-cloud-commons-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/hystrix/HystrixTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-902">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-openfeign-core/2.2.3.RELEASE/spring-cloud-openfeign-core-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="129" column="29" lean-forward="true" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/spring-web/5.2.7.RELEASE/spring-web-5.2.7.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/ProviderFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-openfeign-core/2.2.3.RELEASE/spring-cloud-openfeign-core-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="111" column="13" lean-forward="false" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/provider01/src/main/java/com/aimerrhythms/springcloud/provider01/controller/ProviderController01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="209">
+          <caret line="84" column="28" lean-forward="false" selection-start-line="84" selection-start-column="28" selection-end-line="84" selection-end-column="28" />
           <folding>
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/provider02/src/main/java/com/aimerrhythms/springcloud/provider02/controller/ProviderController02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1629#1630#0" expanded="true" />
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1766#1767#0" expanded="true" />
+            <element signature="e#1823#1824#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/exception/HystrixAndFeignFallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/service/HystrixAndFeignService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/exception/HystrixAndFeignFallBackFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/cloud/spring-cloud-netflix-hystrix/2.2.3.RELEASE/spring-cloud-netflix-hystrix-2.2.3.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="33" column="52" lean-forward="false" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <element signature="e#1248#1249#0" expanded="false" />
+            <element signature="e#1273#1274#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/controller/HystrixController01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.0.RELEASE/spring-boot-autoconfigure-2.3.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cassandra/CassandraProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1493">
+          <caret line="410" column="41" lean-forward="false" selection-start-line="410" selection-start-column="20" selection-end-line="410" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/org/springframework/boot/spring-boot-autoconfigure/2.3.1.RELEASE/spring-boot-autoconfigure-2.3.1.RELEASE.jar!/org/springframework/boot/autoconfigure/cassandra/CassandraProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="250" column="20" lean-forward="false" selection-start-line="250" selection-start-column="20" selection-end-line="250" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_local_repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18-sources.jar!/com/netflix/hystrix/HystrixCommandProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="50" column="86" lean-forward="false" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer01/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
+        <state relative-caret-position="680">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ribbon-consumer1/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/consumer01/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="338">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer01/src/main/java/com/aimerrhythms/springcloud/consumer02/Consumer01Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1364,7 +1683,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>common</last-edited>
+          <last-edited>provider01</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
