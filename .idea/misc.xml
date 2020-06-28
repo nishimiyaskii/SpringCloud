@@ -8,7 +8,6 @@
         <option value="$PROJECT_DIR$/springcloud-consumer01/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider01/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-provider02/pom.xml" />
-        <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-consumer02/pom.xml" />
         <option value="$PROJECT_DIR$/admin-server/pom.xml" />
         <option value="$PROJECT_DIR$/config-center-server/pom.xml" />
@@ -20,6 +19,7 @@
         <option value="$PROJECT_DIR$/provider01/pom.xml" />
         <option value="$PROJECT_DIR$/provider02/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul_server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

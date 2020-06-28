@@ -17,7 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" filepath="$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" filepath="$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider02/springcloud-provider02.iml" filepath="$PROJECT_DIR$/springcloud-provider02/springcloud-provider02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/zuul/zuul.iml" filepath="$PROJECT_DIR$/zuul/zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul_server/zuul_server.iml" filepath="$PROJECT_DIR$/zuul_server/zuul_server.iml" />
     </modules>
   </component>
 </project>

@@ -21,7 +21,7 @@
         <module name="springcloud-consumer02" />
         <module name="springcloud-provider01" />
         <module name="springcloud-provider02" />
-        <module name="zuul" />
+        <module name="zuul_server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -52,6 +52,7 @@
       <module name="springcloud-provider01" target="1.8" />
       <module name="springcloud-provider02" target="1.8" />
       <module name="zuul" target="1.8" />
+      <module name="zuul_server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
