@@ -5,18 +5,13 @@
       <module fileurl="file://$PROJECT_DIR$/SpringCloud.iml" filepath="$PROJECT_DIR$/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/admin-server/admin-server.iml" filepath="$PROJECT_DIR$/admin-server/admin-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config-center-client/config-center-client.iml" filepath="$PROJECT_DIR$/config-center-client/config-center-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/config-center-server/config-center-server.iml" filepath="$PROJECT_DIR$/config-center-server/config-center-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer01/consumer01.iml" filepath="$PROJECT_DIR$/consumer01/consumer01.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer02/consumer02.iml" filepath="$PROJECT_DIR$/consumer02/consumer02.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server_node01/eureka_server_node01.iml" filepath="$PROJECT_DIR$/eureka_server_node01/eureka_server_node01.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka_server_node02/eureka_server_node02.iml" filepath="$PROJECT_DIR$/eureka_server_node02/eureka_server_node02.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider01/provider01.iml" filepath="$PROJECT_DIR$/provider01/provider01.iml" />
       <module fileurl="file://$PROJECT_DIR$/provider02/provider02.iml" filepath="$PROJECT_DIR$/provider02/provider02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer01/springcloud-consumer01.iml" filepath="$PROJECT_DIR$/springcloud-consumer01/springcloud-consumer01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" filepath="$PROJECT_DIR$/springcloud-consumer02/springcloud-consumer02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" filepath="$PROJECT_DIR$/springcloud-provider01/springcloud-provider01.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-provider02/springcloud-provider02.iml" filepath="$PROJECT_DIR$/springcloud-provider02/springcloud-provider02.iml" />
       <module fileurl="file://$PROJECT_DIR$/zuul_server/zuul_server.iml" filepath="$PROJECT_DIR$/zuul_server/zuul_server.iml" />
     </modules>
   </component>

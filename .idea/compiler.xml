@@ -9,18 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="admin-server" />
         <module name="common" />
-        <module name="config-center-client" />
-        <module name="config-center-server" />
+        <module name="config-server" />
         <module name="consumer01" />
         <module name="consumer02" />
         <module name="eureka_server_node01" />
         <module name="eureka_server_node02" />
         <module name="provider01" />
         <module name="provider02" />
-        <module name="springcloud-consumer01" />
-        <module name="springcloud-consumer02" />
-        <module name="springcloud-provider01" />
-        <module name="springcloud-provider02" />
         <module name="zuul_server" />
       </profile>
     </annotationProcessing>
@@ -29,6 +24,8 @@
       <module name="common" target="1.8" />
       <module name="config-center-client" target="1.8" />
       <module name="config-center-server" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="consumer01" target="1.8" />
       <module name="consumer02" target="1.8" />
       <module name="eureka-consumer1" target="1.8" />
